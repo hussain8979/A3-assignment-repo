@@ -6,3 +6,13 @@ module.exports = {
     },
     plugins: [],
   }
+  module.exports = {
+    theme: {
+      extend: {
+        minHeight: {
+          '128': '32rem',
+          'img-height': '36rem',
+        }
+      }
+    }
+  }
